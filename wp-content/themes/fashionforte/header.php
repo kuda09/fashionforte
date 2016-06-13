@@ -45,6 +45,22 @@
 					<div class="menu-center">
 						<a class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></a>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						<div class="searchHeader">
+							<a class="fa fa-search"></a>
+
+							<div class="searchContainter">
+
+								<span class="search">
+									<i class="fa fa-search"></i>
+								</span>
+
+								<input type="search" class="searchInput" placeholder="search">
+								<span class="close">
+									<i class="fa fa-close"></i>
+								</span>
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</nav><!-- #site-navigation -->

@@ -17,13 +17,8 @@
 
 	<div class="container">
 		<div class="site-info">
-			<ul class="footer-links">
-				<li><a href="">about</a></li>
-				<li><a href="">privacy policy</a></li>
-				<li><a href="">jobs</a></li>
-				<li><a href="">press</a></li>
-				<li><a href="">advertising</a></li>
-			</ul>
+			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?>
+
 			<p class="text-center"> &copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?>  All Rights Reserved </p>
 		</div><!-- .site-info -->
 	</div>
